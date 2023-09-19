@@ -99,7 +99,7 @@ a {
 .sidebar {
     overflow: hidden;
     background-color: var(--darkblue);
-    padding: 20px;
+    padding: 10px;
 }
 
 .toolbar {
@@ -136,7 +136,6 @@ a {
 .icon-tool {
     color: white;
     font-size: 10px;
-
 }
 
 .player-elements {
@@ -188,6 +187,35 @@ a {
 .player-icon-container {
     width: 150px;
 }
+
+/* Sidebar */
+.logo-spotify {
+    max-width: 20px;
+}
+
+.sidebar {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-sidebar {
+    width: 20px;
+
+}
+
+.list-sidebar-bottom {
+    width: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
