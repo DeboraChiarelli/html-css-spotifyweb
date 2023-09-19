@@ -136,7 +136,7 @@ a {
 .icon-tool {
     color: white;
     font-size: 10px;
-    padding: 5px;
+
 }
 
 .player-elements {
@@ -155,6 +155,7 @@ a {
     font-size: 10px;
     padding: 5px 0;
     align-items: center;
+    gap: 5px;
     
 }
 
@@ -184,12 +185,59 @@ a {
     align-self: center;
 }
 
+.player-icon-container {
+    width: 150px;
+}
 
+
+
+
+
+
+
+/**************************************
+         Soluzioni Responsive
+**************************************/
 
 @media (min-width: 639px) {
     .sidebar {
-        width: 230px;
+        width: 150px;
         flex-shrink: 0;
     }
 }
 
+
+
+
+@media (min-width: 768px) {
+    .icon-tool-item  { 
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .player-icon-container {
+        width: 220px;
+    }
+}
+
+
+
+
+@media (min-width: 992px) {
+    .player-bar-container {
+        gap: 20px;
+}
+
+
+
+
+@media (min-width: 1200px) {
+   
+}
+
+
+
+
+@media (min-width: 1400px) {
+  
+}
