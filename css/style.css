@@ -31,7 +31,7 @@ a {
 
 :root {
     --darkblue:#080B12;
-    --blue:#B5DDFF;
+    --blue: #141922;
     --dark-grey:#282828;
     --light:#FFFFFF;
 }
@@ -45,7 +45,7 @@ a {
 
 .debug .app-container {
     border: 1px solid orange;
-    padding: 20px;
+    
 }
 
 .debug .main-container {
@@ -54,7 +54,6 @@ a {
 }
 
 .debug .sidebar {
-    background-color: green;
     padding: 20px;
 }
 
@@ -62,7 +61,6 @@ a {
     background-color: var(--dark-grey);
     
 }
-
 
 
 /* Utilities */
@@ -83,7 +81,6 @@ a {
 }
 
 
-
 /* main container */
 #app {
     display: flex;
@@ -96,10 +93,13 @@ a {
     display: flex;
     flex-grow: 1;
     overflow: auto;
+    background-color: var(--blue);
 }
 
 .sidebar {
     overflow: hidden;
+    background-color: var(--darkblue);
+    padding: 20px;
 }
 
 .toolbar {
