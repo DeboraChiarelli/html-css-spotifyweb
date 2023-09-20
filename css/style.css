@@ -98,7 +98,7 @@ a {
 .app-container {
     display: flex;
     flex-grow: 1;
-    overflow: auto;
+    overflow: hidden;
     background-color: var(--blue);
 }
 
@@ -114,6 +114,7 @@ a {
 
 .main-container {
     flex-grow: 1;
+    overflow: auto;
 }
 
 /* Toolbar */
@@ -222,6 +223,7 @@ a {
 }
 
 .sidebar {
+    flex-shrink: 0;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -337,7 +339,53 @@ a {
     flex-wrap: wrap;
 }
 
+.titles {
+    margin-bottom: 20px;
+}
 
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.played {
+    font-size: 28px;
+    color: white;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+.row > [class^='col'] {
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 10px;    
+}
+
+.title-card {
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+}
+
+.subtitle-suggestions {
+    color: grey;
+    font-size: 10px;
+}
 
 
 
@@ -384,6 +432,10 @@ a {
         display: none;
     }
 
+    .col {
+        flex-basis: calc((100% / 12) *3);
+    }
+
 }
 
 
@@ -392,6 +444,13 @@ a {
 @media (min-width: 992px) {
     .player-bar-container {
         gap: 20px;
+    }
+
+    .col {
+        flex-basis: calc((100% / 12)* 2);
+   }
+    
+
 }
 
 
