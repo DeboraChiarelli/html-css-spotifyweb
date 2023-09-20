@@ -83,6 +83,10 @@ a {
     display: none;
 }
 
+.border-bottom {
+    border-bottom: 1px solid grey;
+}
+
 /* main container */
 #app {
     display: flex;
@@ -226,9 +230,6 @@ a {
     width: 28px;
 }
 
-.list-sidebar-bottom {
-    width: 28px;    
-}
 
 .logo-small {
     width: 20px;
@@ -269,6 +270,7 @@ a {
 
 .text-list-menu-special {
     padding: 10px;
+    white-space: nowrap;
 }
 
 .list-menu {
@@ -279,6 +281,43 @@ a {
     padding: 5px;
     white-space: nowrap;
 }
+
+.text-install {
+    color: grey;
+    white-space: nowrap;   
+}
+
+.text-account {
+    color: white;
+    white-space: nowrap;
+}
+
+.install-content {
+    margin-bottom: 10px;
+}
+
+.install-container::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+.list-sidebar-bottom img {
+    width: 28px;   
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
