@@ -12,7 +12,6 @@ ul,
 ol,
 menu {
     list-style: none;
-
 }
 
 img {
@@ -80,6 +79,9 @@ a {
     align-items: center;
 }
 
+.d-none {
+    display: none;
+}
 
 /* main container */
 #app {
@@ -159,7 +161,6 @@ a {
     padding: 5px 0;
     align-items: center;
     gap: 5px;
-    
 }
 
 .player-bar {
@@ -192,6 +193,25 @@ a {
     flex-basis: 150px;
 }
 
+.time-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 22px;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player-bar:hover .time-circle {
+    display: inline-block;
+}
+
+.player-bar:hover .player-bar-full {
+    background-color: greenyellow;
+}
+
 /* Sidebar */
 .logo-spotify {
     max-width: 20px;
@@ -203,16 +223,21 @@ a {
 }
 
 .list-sidebar {
-    width: 20px;
-
+    width: 28px;
 }
 
 .list-sidebar-bottom {
-    width: 15px;
+    width: 28px;
+    
 }
 
+.logo-big {
+    max-width: 50px;
+}
 
-
+.text-menu {
+    color: white;
+}
 
 
 
@@ -250,6 +275,15 @@ a {
     .player-icon-container {
         width: 220px;
     }
+
+    .d-none {
+        display: inline-block;
+    }
+
+    .logo-small {
+        display: none;
+    }
+
 }
 
 
