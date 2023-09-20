@@ -138,6 +138,10 @@ a {
     font-size: 10px;
 }
 
+.icon-tools-right {
+    padding: 10px;
+}
+
 .player-elements {
     width: 50%;
 }
@@ -185,7 +189,7 @@ a {
 }
 
 .player-icon-container {
-    width: 150px;
+    flex-basis: 150px;
 }
 
 /* Sidebar */
