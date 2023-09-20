@@ -227,23 +227,58 @@ a {
 }
 
 .list-sidebar-bottom {
-    width: 28px;
-    
+    width: 28px;    
+}
+
+.logo-small {
+    width: 20px;
 }
 
 .logo-big {
-    max-width: 50px;
+    width: 100px;
+}
+
+.menu-sidebar {
+    display: flex;
+    align-items: center;
 }
 
 .text-menu {
     color: white;
+    padding: 5px;
+    white-space: nowrap;
 }
 
+.playlist-text {
+    color: white;
+    margin-top: 40px;
+}
 
+.margin-bottom-logo {
+    margin-bottom: 20px;
+}
 
+.icon-list-menu {
+    color: grey;
+    display: flex;
+}
 
+.icon-cross {
+    font-size: 40px;
+}
 
+.text-list-menu-special {
+    padding: 10px;
+}
 
+.list-menu {
+    color: grey;
+}
+
+.name-playlist {
+    padding: 5px;
+    white-space: nowrap;
+}
 
 
 
@@ -258,9 +293,13 @@ a {
 
 @media (min-width: 639px) {
     .sidebar {
-        width: 150px;
+        width: 180px;
         flex-shrink: 0;
     }
+
+    /*.menu-sidebar {
+        display: none;
+    }*/
 }
 
 
