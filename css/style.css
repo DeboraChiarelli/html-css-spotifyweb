@@ -112,10 +112,6 @@ a {
     height: auto; 
 }
 
-.main-container {
-    flex-grow: 1;
-    overflow: auto;
-}
 
 /* Toolbar */
 
@@ -312,11 +308,22 @@ a {
 }
 
 /* main container */
+
+.main-container {
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+}
+
 .banner {
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .button {
@@ -341,6 +348,7 @@ a {
 
 .titles {
     margin-bottom: 20px;
+    padding-top: 150px;
 }
 
 .container {
@@ -387,7 +395,10 @@ a {
     font-size: 10px;
 }
 
-
+.content-categories {
+    overflow: auto;
+    height: 100%;
+}
 
 
 
