@@ -36,6 +36,7 @@ h3:hover {
     color: greenyellow;
 }
 
+
 /* palette colori */
 
 :root {
@@ -445,47 +446,6 @@ h3:hover {
 }
 
 
-/*.img-card {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.card-hover:hover .img-card {
-    opacity: 0.3;
-}
-
-.card-hover:hover .middle {
-    opacity: 1;
-}
-
-.card-hover {
-    position: relative;
-    width: 100%;
-}
-
-.icon-hover {
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-}*/
-
-
 .subtitle {
     color: grey;
     font-size: 10px;
@@ -519,9 +479,6 @@ h3:hover {
         flex-shrink: 0;
     }
 
-    /*.menu-sidebar {
-        display: none;
-    }*/
 }
 
 
@@ -563,7 +520,6 @@ h3:hover {
         flex-basis: calc((100% / 12)* 2);
    }
     
-
 }
 
 
