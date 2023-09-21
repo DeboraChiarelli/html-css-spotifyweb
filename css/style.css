@@ -24,7 +24,17 @@ a {
     display: inline-block;
 }
 
+a:hover {
+    color: greenyellow;
+}
 
+span:hover {
+    color: greenyellow;
+}
+
+h3:hover {
+    color: greenyellow;
+}
 
 /* palette colori */
 
@@ -339,6 +349,7 @@ a {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 
 .button {
